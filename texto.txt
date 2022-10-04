@@ -1,0 +1,225 @@
+html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--mi css-->
+    <link rel="stylesheet" href="./css/style.css">
+    <!--boostrap css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <title>FASHION BAZAAR</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">Home</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./pages/productos.html">Products</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Purchases
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="./pages/carrito.html">Your Cart</a></li>
+                      <li><a class="dropdown-item" href="./pages/cuenta.html">Your Account</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <!--jQuery-->
+    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script> 
+    <!--boostrap js-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <!--mi js-->
+    <script src="./js/script.js"></script>
+</body>
+</html> 
+
+productos
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--mi css-->
+    <link rel="stylesheet" href="../css/style.css">
+    <!--boostrap css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <title>FASHION BAZAAR</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="./index.html">Home</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="productos.html">Products</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Purchases
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="carrito.html">Your Cart</a></li>
+                      <li><a class="dropdown-item" href="cuenta.html">Your Account</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main>  
+        <h2 class="main-txt">Products</h2>
+        <div class="container">
+            <div class="row row-col-sm-1 row-col-md-2 row-col-lg-3 row-col-xl-4">
+                <div class="col d-flex justify-content-center-mb-4">
+                    <div class="card shadow mb-1 rounded" style="width: 20rem;">
+                        <h5 class="card-title pt-2 text-center main-txt">Card title</h5> 
+                        <img src="../fts/balenciaga.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text description">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <div class="d-grid gap-2">
+                                <button class="btn btn-primary button">GAdd to cart</button>
+                            </div>
+                        </div> 
+                      </div>
+                </div>
+                <div class="col d-flex justify-content-center-mb-4">
+                    <div class="card shadow mb-1 rounded" style="width: 20rem;">
+                        <h5 class="card-title pt-2 text-center main-txt">Card title</h5> 
+                        <img src="../fts/birkin.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text description">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <div class="d-grid gap-2">
+                                <button class="btn btn-primary button">GAdd to cart</button>
+                            </div>
+                        </div> 
+                      </div>
+                </div>
+                <div class="col d-flex justify-content-center-mb-4">
+                    <div class="card shadow mb-1 rounded" style="width: 20rem;">
+                        <h5 class="card-title pt-2 text-center main-txt">Card title</h5> 
+                        <img src="../fts/chanel.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text description">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <div class="d-grid gap-2">
+                                <button class="btn btn-primary button">GAdd to cart</button>
+                            </div>
+                        </div> 
+                      </div>
+                </div>
+                <div class="col d-flex justify-content-center-mb-4">
+                    <div class="card shadow mb-1 rounded" style="width: 20rem;">
+                        <h5 class="card-title pt-2 text-center main-txt">Card title</h5> 
+                        <img src="../fts/louisvuitton.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text description">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <div class="d-grid gap-2">
+                                <button class="btn btn-primary button">GAdd to cart</button>
+                            </div>
+                        </div> 
+                      </div>
+                </div>
+                <div class="col d-flex justify-content-center-mb-4">
+                    <div class="card shadow mb-1 rounded" style="width: 20rem;">
+                        <h5 class="card-title pt-2 text-center main-txt">Card title</h5> 
+                        <img src="../fts/prada.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text description">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <div class="d-grid gap-2">
+                                <button class="btn btn-primary button">GAdd to cart</button>
+                            </div>
+                        </div> 
+                      </div>
+                </div>
+                <div class="col d-flex justify-content-center-mb-4">
+                    <div class="card shadow mb-1 rounded" style="width: 20rem;">
+                        <h5 class="card-title pt-2 text-center main-txt">Card title</h5> 
+                        <img src="../fts/ysl.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text description">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <div class="d-grid gap-2">
+                                <button class="btn btn-primary button">GAdd to cart</button>
+                            </div>
+                        </div> 
+                      </div>
+                </div>
+            </div>         
+        </div>
+    </main>
+    <!--jQuery-->
+    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script> 
+    <!--boostrap js-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <!--mi js-->
+    <script src="./js/script.js"></script>
+</body>
+</html> 
+
+css
+h2{
+    text-align: center;
+    margin: 25px 10px;
+    padding: 15px;
+    
+}
+.description{
+    height: 25px;
+    overflow: hidden;
+    transition: height .3s ease-in .3s;
+}
+.description:hover{
+    height: 50px;
+}
+
+js
+
+const Clickbutton = document.querySelectorAll('.button')
+let cart = []
+
+Clickbutton.forEach(btn => {
+    btn.addEventListener('click', addToCart)
+})
+
+function addToCartItem(e) {
+    const button = e.target
+    const item = button.closest('.card')
+    const itemTitle = item.querySelector('.card-title').textContent;
+    const itemPrice = item.querySelector('.precio').textContent; 
+    const itemImage = item.querySelector('.card-img.top').src;
+
+    const newCart = {
+        title: itemTitle,
+        precio: itemPrice,
+        img: itemImage,
+        cantidad: 1 
+    }
+
+    addItemCart(newCart)
+}
+
+function addItemCart(newCart){
+    cart.push(newCart)
+}
